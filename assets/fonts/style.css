@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: "Ephesis";
+    src: url("assets/fonts/Ephesis-Regular.ttf");
+  }
+
+.top {
+    height: 140px;
+    width: 100%;
+    background-color: rgb(199, 224, 219);
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Ephesis;
+    font-size: 64px;
+}
+
+.flex_screen {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 30px;
+    margin: 0 auto 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link_div {
+    width: 400px;
+    height: 240px;
+    margin-top: 2vw;
+    background-color: bisque;
+}
